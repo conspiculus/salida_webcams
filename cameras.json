@@ -1,0 +1,27 @@
+{
+  "title": "Webcam Dashboard",
+  "port": 3000,
+  "refreshInterval": 5000,
+  "cameras": [
+    {
+      "label": "Steam Plant - Arkansas River",
+      "url": "https://2-fss-2.streamhoster.com/pl_126/amlst:200612-1211598/playlist.m3u8",
+      "type": "hls"
+    },
+    {
+      "label": "Spiral Dr - Tenderfoot Mt PTZ",
+      "url": "https://2-fss-2.streamhoster.com/pl_126/amlst:200612-1517992/playlist.m3u8",
+      "type": "hls"
+    },
+    {
+      "label": "Spiral Dr - Looking SW",
+      "url": "https://2-fss-2.streamhoster.com/pl_126/amlst:200612-1404786/playlist.m3u8",
+      "type": "hls"
+    },
+    {
+      "label": "FIBArk - Arkansas River Wide",
+      "url": "https://2-fss-2.streamhoster.com/pl_126/amlst:200612-6452158/playlist.m3u8",
+      "type": "hls"
+    }
+  ]
+}

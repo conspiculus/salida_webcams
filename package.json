@@ -1,0 +1,13 @@
+{
+  "name": "webcam-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lightweight local webcam dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5"
+  }
+}
