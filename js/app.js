@@ -1,5 +1,5 @@
 (async function () {
-  const res = await fetch('/api/config');
+  const res = await fetch('cameras.json');
   const config = await res.json();
 
   document.getElementById('title').textContent = config.title || 'Webcam Dashboard';
